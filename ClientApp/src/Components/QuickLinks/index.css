@@ -1,0 +1,37 @@
+
+.quicklink-content {
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.quicklink-items {
+    width: 416px;
+    /* height: 416px; */
+    /* width: 416px; */
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+.quicklink-background {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #0074BD;
+    width: 136px;
+    height: 136px;
+    margin: 2px;
+    border-radius: 1px;
+}
+
+@media(max-width: 1200px) {
+    .quicklink-items {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+  }

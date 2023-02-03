@@ -1,0 +1,61 @@
+.portal-homepage {
+  padding: 0px 43px;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.portal-homepage .wrap,
+.portal-homepage .header,
+.portal-homepage .content {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.left-section {
+  flex: 1;
+}
+
+.right-section {
+  width: 416px;
+}
+
+
+
+
+  
+
+@media only screen and (max-width: 1068px) {
+  .content {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .left-section {
+    width: 100%;
+  }
+
+  .right-section {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .portal-homepage {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .left-section {
+    width: 60%;
+  }
+}
+
+
+  

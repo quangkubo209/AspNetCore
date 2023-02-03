@@ -1,0 +1,122 @@
+.howdoi-items :hover{
+    cursor: pointer;
+}
+.howdoi-quiz {
+    height: 40px;
+    background: #636363 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.background-expanded{
+    background-color: #4AC49A;
+}
+
+.img-expanded{
+    transform: rotate(90deg);
+}
+.howdoi-quiz p {
+   
+    text-align: left;
+    font: normal normal normal 14px/44px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.howdoi-quiz img {
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+}
+
+
+.howdoi-answer {
+    background: #636363 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+
+.howdoi-answer p, span{
+    display: flex;
+    text-align: left;
+    font: normal normal normal 14px/23px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+.howdoi-answer span{
+    margin-left: 10px;
+}
+
+
+
+button {
+    border: 0;
+    background-color: #FFFFFF;
+    color: #0074BD;
+    margin-top: 10px;
+}
+
+button p {
+    display: flex;   
+
+}
+
+button img {
+    padding-left: 10px;
+}
+
+.searchbar {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+.searchbar input {
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-left: 30px;
+    font: normal normal normal 14px/16px Segoe UI;
+    box-sizing: border-box;
+
+}
+
+.searchbar img {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    padding: 10px;
+}
+
+.rotation {
+    transform: rotate(180deg);
+    transform : rotate(180deg);
+  }
+
+@media  (max-width: 400px) 
+{
+    .howdoi-answer{
+        align-items: center;
+    }
+.howdoi-quiz{
+    align-items: center;
+    height: 50px;
+}
+.howdoi-quiz p{
+    text-align: left;
+    font: normal normal normal 12px/30px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+}

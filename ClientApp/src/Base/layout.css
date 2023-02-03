@@ -1,0 +1,63 @@
+.portal-homepage {
+    padding: 0px 43px;
+    margin: 0 auto;
+  }
+  
+  .portal-homepage .wrap,
+  .portal-homepage .header,
+  .portal-homepage .content {
+    width: 100%;
+  }
+  
+  .content {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  
+  .flex-left {
+    width: 60%;
+  }
+  
+  .flex-right {
+    width: 40%;
+  }
+  
+  
+  
+  
+    
+  
+  @media only screen and (max-width: 1068px) {
+    .content {
+      flex-direction: column;
+      gap: 0;
+    }
+  
+    .flex-left {
+      width: 100%;
+    }
+  
+    .flex-right {
+      width: 100%;
+    }
+  }
+  
+  /* tablet  */
+  @media (max-width: 700px) {
+    .portal-homepage {
+      padding: 0 10px;
+    }
+  }
+  
+
+  @media only screen and (min-width: 1200px) {
+    .flex-left {
+      width: 60%;
+    }
+  }
+  
+
+
+
+

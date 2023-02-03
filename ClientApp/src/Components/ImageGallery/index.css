@@ -1,0 +1,28 @@
+
+.Image-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Image {
+    margin-right: 10px;   
+}
+
+.Image img {
+      width: 180px;
+    height: 130px;
+}
+
+.rotate{
+    transform : rotate(180deg);
+}
+
+@media (max-width: 400px){
+    .Image img {
+        width: 170px;
+        height: 130px;
+    }
+    .Image {
+        margin-right: 2px;
+    }
+}

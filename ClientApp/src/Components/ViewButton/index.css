@@ -1,0 +1,19 @@
+
+.view-more {
+    display:flex;
+    width: 120px;
+    height: 19px;
+    text-align:center;
+}
+.view-more:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.view-more img{
+    margin-left: 5px;
+    height: 15px;
+    width: 12px;
+    align-items: center;
+    margin-top: 5px;
+}
